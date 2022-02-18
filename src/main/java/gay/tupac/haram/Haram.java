@@ -8,8 +8,16 @@ public final class Haram extends JavaPlugin {
     @Override
     public void onEnable() {
         System.out.println("Started Haram");
+
+        //--------------------------------------------------
+        // Events
         Bukkit.getPluginManager().registerEvents(new PlayerListener(), this);
+
+        //--------------------------------------------------
+        // Player commands
         this.getCommand("smite").setExecutor(new SmiteCommand());
+        this.getCommand("home").setExecutor(new HomeCommand());
+        this.getCommand("sethome").setExecutor(new SetHomeCommand());
     }
 
     @Override

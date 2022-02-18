@@ -23,6 +23,6 @@ public class SmiteCommand implements CommandExecutor {
             player.getWorld().strikeLightning(targetBlock.getLocation());
             Bukkit.broadcastMessage(ChatColor.BLACK + "If God wills it.");
         }
-        return false;
+        return true;
     }
 }

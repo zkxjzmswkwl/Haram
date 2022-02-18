@@ -9,3 +9,10 @@ commands:
   smite:
     description: Bismillah
     usage: /smite
+  home:
+    description: Takes you home
+    usage: /home
+  sethome:
+    description: Sets your home
+    usage: /sethome
+  
