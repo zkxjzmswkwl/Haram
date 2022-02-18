@@ -1,0 +1,11 @@
+name: Haram
+version: '${project.version}'
+main: gay.tupac.haram.Haram
+api-version: 1.18
+authors: [ Carter ]
+description: Stops specific players from eating pork. Bismillah.
+website: tupac.gay
+commands:
+  smite:
+    description: Bismillah
+    usage: /smite
